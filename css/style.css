@@ -1,0 +1,131 @@
+h2{
+  text-align: center;
+}
+
+#container{
+  padding: 40px 100px;
+}
+
+.listItemContainer{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.listItem{
+  list-style: none;
+  padding: 40px;
+  margin: 20px 15px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #616161; */
+  border: 2px solid #616161;
+}
+
+.formContainer{
+  text-align: center;
+  margin: 50px auto;
+}
+
+.img,
+.formImg{
+  width: 320px;
+  height: 280px;
+}
+
+
+
+.text{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+#myBtn{
+  font-size: 17px;
+  padding: 12px 35px;
+  background-color: #616161;
+  /* border: 1px solid #3155D7; */
+  /* border-radius: 2px; */
+  /* background : linear-gradient(to bottom, #436af6 0%,#6a6cf6 100%); */
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover,
+.upload:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  min-height: 200px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.center{
+  margin: 0 auto 10px auto;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.desc{
+  margin: 10px auto;
+  width: 320px;
+  height: 30px;
+  padding-left: 20px;
+  border: 1px solid #616161;
+}
+
+.add{
+  margin: 10px auto;
+  background-color: #616161;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 12px 35px;
+}

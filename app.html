@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Gallery With API</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h2>FOOD PHOTO GALLERY</h2>
+      <!-- <ul class="listItemContainer">
+        <li class="listItem">
+          <img class="img" src="" alt="img1">
+          <div class="text"></div>
+        </li>
+        <li class="listItem">
+          <img class="img" src="" alt="img2">
+          <div class="text"></div>
+        </li>
+        <li class="listItem">
+          <img class="img" src="" alt="img3">
+          <div class="text"></div>
+        </li>
+        <li class="listItem">
+          <img class="img" src="" alt="img4">
+          <div class="text"></div>
+        </li>
+        <li class="listItem">
+          <img class="img" src="" alt="img5">
+          <div class="text"></div>
+        </li>
+      </ul> -->
+
+      <div class="formContainer" id="frmContainer">
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Add</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="listItem center">
+              <img src="" alt="Food" class='formImg'>
+            </div>
+            <form method="get" action="" name="myForm">
+              <input type="text" name="desc" class="desc" placeholder="Description">
+              <input type="submit" name="add" class="add" value="add">
+            </form>
+          </div>
+
+        </div>
+
+      </div> <!-- formContainer -->
+
+    </div> <!-- #container -->
+
+  </body>
+  <script type="text/javascript" src="js/app.js"></script>
+</html>
